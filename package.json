@@ -4,7 +4,7 @@
   "description": "A Planning Poker application built with React, TypeScript, and WebSockets.",
   "scripts": {
     "start": "vite",
-    "build": "vite build",
+    "build": "cd ui && npm run build",
     "dev": "vite",
     "test": "vitest",
     "lint": "eslint . --ext .ts,.tsx",
